@@ -81,7 +81,7 @@ public class App {
     }
 
     private static void writeFileClasification(Player player) throws IOException {
-        FileWriter fileWriter = new FileWriter("/Users/Rosario/eclipse-workspace/S01T03N01_Munoz_Rosario/src/EX3/Clasification.txt\"");
+        FileWriter fileWriter = new FileWriter("/Users/Rosario/eclipse-workspace/S01T03N01_Munoz_Rosario/src/EX3/Clasification.txt");
         fileWriter.write("Nombre del jugador: " + player.getName() + ". Puntación:" +player.getScore()+ ".");
         fileWriter.close();
     }
