@@ -7,7 +7,7 @@ import java.util.*;
 
 public class App {
     public static void main(String[] args) throws IOException {
-        //Método que lee el ARCHIVO txt y guarda los datos en un Hashmap
+        //Método que lee el ARCHIVO txt y guarda los datos en un Hashmap.
         HashMap<String, String> countries = fillListCountries();
         //El jugador contesta a las 10 preguntas
         Player playerPlay = play(countries);
