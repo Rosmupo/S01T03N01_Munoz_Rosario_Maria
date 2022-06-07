@@ -1,3 +1,4 @@
+package EX1;
 public class Month {
 
     private String name;

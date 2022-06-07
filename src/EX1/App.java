@@ -1,3 +1,5 @@
+package EX1;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -75,6 +77,20 @@ public class App {
         Month month7 = new Month("Agosto");
         monthList.add(7, month7);
         return monthList;
+    }
+
+    public static class Month {
+
+        private String name;
+
+        public Month(String name) {
+            this.name = name;
+        }
+
+        public String getName() {
+            return name;
+        }
+
     }
 }
 
